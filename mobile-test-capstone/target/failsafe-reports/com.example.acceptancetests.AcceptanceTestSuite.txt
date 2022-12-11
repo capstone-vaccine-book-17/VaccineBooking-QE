@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.example.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.252 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Register.Register with valid nama, valid nik, valid tanggal lahir, valid alamat,valid email, valid jenis kelamin, valid password #1  Time elapsed: 3.073 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PFETDR9', ip: '172.20.10.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: AndroidDriver
+	java.lang.NullPointerException: <no message>
+
+Register.Register with valid nama, valid nik, valid tanggal lahir, valid alamat,valid email, valid jenis kelamin, valid password #2  Time elapsed: 2.139 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PFETDR9', ip: '172.20.10.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: AndroidDriver
+	java.lang.NullPointerException: <no message>
+
+Register.Register with valid nama, valid nik, valid tanggal lahir, valid alamat,valid email, valid jenis kelamin, valid password #3  Time elapsed: 2.125 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PFETDR9', ip: '172.20.10.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: AndroidDriver
+	java.lang.NullPointerException: <no message>
+
