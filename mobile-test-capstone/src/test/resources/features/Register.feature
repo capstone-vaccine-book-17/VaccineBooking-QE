@@ -21,3 +21,45 @@ Feature: Register
    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
    | | | | | | | |
    |Adi Subakti| | | | | | |
+   |Adi Subakti|3245621457853789| | | | | |
+   |Adi Subakti|3245621457853789|1995-05-05| | | | |
+   |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman| | | |
+   |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com| | |
+   |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki| |
+   | | | | | | |12345|
+   | | | | | |Laki-Laki|12345|
+   | | | | |subakti@gmail.com|Laki-Laki|12345|
+   | | | |Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
+   | | |1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
+   | |3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
+   |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria|123|
+   |AAAAAAA| | | | | | |
+   |AAAAAAA|123| | | | | |
+   |AAAAAAA|123|0000-00-00| | | | |
+   |AAAAAAA|123|0000-00-00|Jln| | | |
+   |AAAAAAA|123|0000-00-00|Jln|@gmail.com| | |
+   |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria| |
+   | | | | | | |123|
+   | | | | | |Pria|123|
+   | | | | |@gmail.com|Pria|123|
+   | | | |Jln|@gmail.com|Pria|123|
+   | | |0000-00-00|Jln|@gmail.com|Pria|123|
+   | |123|0000-00-00|Jln|@gmail.com|Pria|123|
+   |AAAAAAA|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
+   |AAAAAAA|123|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
+   |AAAAAAA|123|0000-00-00|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
+   |AAAAAAA|123|0000-00-00|Jln|subakti@gmail.com|Laki-Laki|12345|
+   |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Laki-Laki|12345|
+   |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria|12345|
+   |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|123|
+   |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Pria|123|
+   |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|@gmail.com|Pria|123|
+   |Adi Subakti|3245621457853789|1995-05-05|Jln|@gmail.com|Pria|123|
+   |Adi Subakti|3245621457853789|0000-00-00|Jln|@gmail.com|Pria|123|
+   |Adi Subakti|123|0000-00-00|Jln|@gmail.com|Pria|123|
+
+   Scenario: Register with tombol daftar di login page
+     Given I am on the login page
+     When I click login button
+     And I click daftar button
+     Then I Succes open register page

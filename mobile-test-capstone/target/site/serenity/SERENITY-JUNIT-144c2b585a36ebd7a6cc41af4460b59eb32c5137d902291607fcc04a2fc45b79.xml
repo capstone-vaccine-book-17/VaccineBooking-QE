@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Register" skipped="0" tests="3" time="7.1" timestamp="2022-12-10 02:15:43"><testcase name="Register with valid nama, valid nik, valid tanggal lahir, valid alamat,valid email, valid jenis kelamin, valid password"><error message="Connection refused: connect" type="java.net.ConnectException">Connection refused: connect</error><system-err>Connection refused: connect&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="39" failures="0" name="Register" skipped="1" tests="40" time="84.86" timestamp="2022-12-13 02:47:31"><testcase name="Register with valid nama, valid nik, valid tanggal lahir, valid alamat,valid email, valid jenis kelamin, valid password"><error message="Connection refused: connect" type="java.net.ConnectException">Connection refused: connect</error><system-err>Connection refused: connect&#13;
 okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)&#13;
 okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)&#13;
 okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)&#13;
@@ -45,4 +45,4 @@ io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
 io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)&#13;
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
-</system-err></testcase></testsuite>
+</system-err></testcase><testcase name="Register with tombol daftar di login page"><skipped/></testcase></testsuite>

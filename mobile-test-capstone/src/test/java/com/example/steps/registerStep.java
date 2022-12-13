@@ -49,4 +49,16 @@ public class registerStep {
     @Then("I succes create my account")
     public void iSuccesCreateMyAccount() {
     }
+
+    @When("I click login button")
+    public void iClickLoginButton() {
+    }
+
+    @And("I click daftar button")
+    public void iClickDaftarButton() {
+    }
+
+    @Then("I Succes open register page")
+    public void iSuccesOpenRegisterPage() {
+    }
 }
