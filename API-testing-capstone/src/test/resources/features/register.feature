@@ -11,46 +11,46 @@ Feature: Register
     And I input alamat "<alamat>"
     And I input email "<email>"
     And I input jenis kelamin "<gender>"
-    And I input password "<password>"
-    Then I will get status code
+    And I input password "<password>" and do request
+    Then I will get status code <statuscode>
     Examples:
-    |nama|nik|dob|alamat|email|gender|password|
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    | | | | | | | |
-    |Adi Subakti| | | | | | |
-    |Adi Subakti|3245621457853789| | | | | |
-    |Adi Subakti|3245621457853789|1995-05-05| | | | |
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman| | | |
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com| | |
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki| |
-    | | | | | | |12345|
-    | | | | | |Laki-Laki|12345|
-    | | | | |subakti@gmail.com|Laki-Laki|12345|
-    | | | |Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    | | |1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    | |3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria|123|
-    |AAAAAAA| | | | | | |
-    |AAAAAAA|123| | | | | |
-    |AAAAAAA|123|0000-00-00| | | | |
-    |AAAAAAA|123|0000-00-00|Jln| | | |
-    |AAAAAAA|123|0000-00-00|Jln|@gmail.com| | |
-    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria| |
-    | | | | | | |123|
-    | | | | | |Pria|123|
-    | | | | |@gmail.com|Pria|123|
-    | | | |Jln|@gmail.com|Pria|123|
-    | | |0000-00-00|Jln|@gmail.com|Pria|123|
-    | |123|0000-00-00|Jln|@gmail.com|Pria|123|
-    |AAAAAAA|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    |AAAAAAA|123|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    |AAAAAAA|123|0000-00-00|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|
-    |AAAAAAA|123|0000-00-00|Jln|subakti@gmail.com|Laki-Laki|12345|
-    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Laki-Laki|12345|
-    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria|12345|
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|123|
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Pria|123|
-    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|@gmail.com|Pria|123|
-    |Adi Subakti|3245621457853789|1995-05-05|Jln|@gmail.com|Pria|123|
-    |Adi Subakti|3245621457853789|0000-00-00|Jln|@gmail.com|Pria|123|
-    |Adi Subakti|123|0000-00-00|Jln|@gmail.com|Pria|123|
+    |nama|nik|dob|alamat|email|gender|password|statuscode|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    | | | | | | | |200|
+    |Adi Subakti| | | | | | |200|
+    |Adi Subakti|3245621457853789| | | | | |200|
+    |Adi Subakti|3245621457853789|1995-05-05| | | | |200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman| | | |200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com| | |200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki| |200|
+    | | | | | | |12345|200|
+    | | | | | |Laki-Laki|12345|200|
+    | | | | |subakti@gmail.com|Laki-Laki|12345|200|
+    | | | |Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    | | |1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    | |3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria|123|200|
+    |AAAAAAA| | | | | | |200|
+    |AAAAAAA|123| | | | | |200|
+    |AAAAAAA|123|0000-00-00| | | | |200|
+    |AAAAAAA|123|0000-00-00|Jln| | | |200|
+    |AAAAAAA|123|0000-00-00|Jln|@gmail.com| | |200|
+    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria| |200|
+    | | | | | | |123|200|
+    | | | | | |Pria|123|200|
+    | | | | |@gmail.com|Pria|123|200|
+    | | | |Jln|@gmail.com|Pria|123|200|
+    | | |0000-00-00|Jln|@gmail.com|Pria|123|200|
+    | |123|0000-00-00|Jln|@gmail.com|Pria|123|200|
+    |AAAAAAA|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    |AAAAAAA|123|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    |AAAAAAA|123|0000-00-00|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|12345|200|
+    |AAAAAAA|123|0000-00-00|Jln|subakti@gmail.com|Laki-Laki|12345|200|
+    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Laki-Laki|12345|200|
+    |AAAAAAA|123|0000-00-00|Jln|@gmail.com|Pria|12345|200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Laki-Laki|123|200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|subakti@gmail.com|Pria|123|200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln Jendral Sudirman|@gmail.com|Pria|123|200|
+    |Adi Subakti|3245621457853789|1995-05-05|Jln|@gmail.com|Pria|123|200|
+    |Adi Subakti|3245621457853789|0000-00-00|Jln|@gmail.com|Pria|123|200|
+    |Adi Subakti|123|0000-00-00|Jln|@gmail.com|Pria|123|200|

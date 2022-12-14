@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0592ec4f-0e2d-45af-81a6-c3d763e44b9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/Register.feature" afterDir="false" />
-    </list>
+    <list default="true" id="0592ec4f-0e2d-45af-81a6-c3d763e44b9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
