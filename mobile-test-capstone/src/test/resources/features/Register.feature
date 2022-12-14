@@ -4,7 +4,7 @@ Feature: Register
   I want to create account
   So i can booking vaccine
 
- Scenario Outline: Register with valid nama, valid nik, valid tanggal lahir, valid alamat,valid email, valid jenis kelamin, valid password
+ Scenario Outline: Register nama, nik, tanggal lahir, alamat, email, jenis kelamin, password
     Given I am on the login page
     When I click register button
     And I input nama "<nama>"
