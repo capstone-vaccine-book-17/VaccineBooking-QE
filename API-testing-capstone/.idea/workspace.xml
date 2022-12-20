@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0592ec4f-0e2d-45af-81a6-c3d763e44b9c" name="Changes" comment="" />
+    <list default="true" id="0592ec4f-0e2d-45af-81a6-c3d763e44b9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/registerPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
