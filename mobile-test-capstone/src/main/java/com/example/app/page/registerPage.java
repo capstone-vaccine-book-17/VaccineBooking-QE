@@ -3,6 +3,8 @@ package com.example.app.page;
 import com.example.app.base.BasePageObject;
 import org.openqa.selenium.By;
 
+import static com.example.app.drivers.AndroidDriverInit.driver;
+
 public class registerPage extends BasePageObject {
 
     private By startPage = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View");
@@ -17,13 +19,29 @@ public class registerPage extends BasePageObject {
 
     private By fieldGender = By.xpath("//android.widget.Button[@content-desc=\"Pilih jenis kelamin\"]");
 
-    private By fieldBirthdate = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[5]");
+    private By fieldBirthdate = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[7]");
 
     private By fieldEmail = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[4]");
 
     private By fieldPassword = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[5]");
 
-    private By daftarButton = By.xpath("//android.widget.Button[@content-desc=\"Daftar\"]");
+    private By inputDob = By.xpath("//android.view.View/android.widget.Button[1]");
+
+    private By fieldinputDob = By.xpath("//android.view.View/android.widget.EditText");
+
+    private By clickGender = By.xpath("//android.view.View[@content-desc=\"laki-laki\"]");
+
+    private By loginButton = By.xpath("//android.widget.Button[@content-desc=\"Masuk\"]");
+
+    private By buttonDaftar = By.xpath("//android.widget.Button[@content-desc=\"Daftar\"]");
+
+    private By registerPage = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView");
+
+    private By okButton = By.xpath("//android.widget.Button[@content-desc=\"OK\"]");
+
+    private By canRegis = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View");
+
+    private By cantRegis = By.xpath("//android.view.View[@content-desc=\"Invalid format.\"]");
 
     public void setstartPage(){isDisplayed(startPage);}
 
@@ -44,26 +62,40 @@ public class registerPage extends BasePageObject {
         inputText(fieldAlamat, alamat);
     }
 
-    public void setFieldGender(String gender){
+    public void setFieldGender(){
         click(fieldGender);
-        inputText(fieldGender, gender);
+        click(clickGender);
     }
 
     public void setFieldBirthdate(String dob){
         click(fieldBirthdate);
-        inputText(fieldBirthdate, dob);
+        click(inputDob);
+        inputText(fieldinputDob, dob);
+        click(okButton);
     }
 
     public void setFieldEmail(String email){
         click(fieldEmail);
+        driver.hideKeyboard();
         inputText(fieldEmail, email);
+        driver.hideKeyboard();
     }
 
     public void setFieldPassword(String password){
         click(fieldPassword);
+        driver.hideKeyboard();
         inputText(fieldPassword, password);
+        driver.hideKeyboard();
     }
 
-    public void setDaftarButton(){click(daftarButton);}
+    public void setDaftarButton(){click(buttonDaftar);}
+
+    public void setCanRegis(){isDisplayed(canRegis);}
+
+    public void setCantRegis(){isDisplayed(cantRegis);}
+
+    public void setLoginButton(){click(loginButton);}
+
+    public void successOpen(){isDisplayed(registerPage);}
 
 }

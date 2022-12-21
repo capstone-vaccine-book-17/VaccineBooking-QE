@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","Register nama, nik, tanggal lahir, alamat, email, jenis kelamin, password","SUCCESS","2022-12-21T23:47:14.9515363+07:00[Asia/Bangkok]","0.0","43.72"
+"Register","Register with tombol daftar di login page","SUCCESS","2022-12-21T23:47:58.6998839+07:00[Asia/Bangkok]","0.0","15.88"

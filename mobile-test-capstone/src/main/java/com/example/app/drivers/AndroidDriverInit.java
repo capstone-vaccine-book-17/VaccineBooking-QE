@@ -15,7 +15,7 @@ public class AndroidDriverInit {
         caps.setCapability("platformVersion", "12");
         caps.setCapability("platformName","Android");
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("app","C:\\Users\\Yusuf Efendi\\mobile-test\\src\\test\\resources\\application\\app-release.apk");
+        caps.setCapability("app","D:\\VaccineBooking-QE\\mobile-test-capstone\\src\\test\\resources\\application\\app-release (1).apk");
 
         try {
             driver = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), caps);
