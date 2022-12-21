@@ -1,3 +1,4 @@
-com\example\hook\AndroidDriverHook.class
 com\example\acceptancetests\AcceptanceTestSuite.class
 com\example\steps\registerStep.class
+com\example\hook\AndroidDriverHook.class
+com\example\steps\addfamilymembersStep.class

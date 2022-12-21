@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Add Family members" skipped="0" tests="1" time="17.65" timestamp="2022-12-22 01:24:05"><testcase name="Add family member in profil page"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+mobile.test.capstone@1.0-SNAPSHOT/com.example.steps.addfamilymembersStep.iAmOnDashboard(addfamilymembersStep.java:16)&#13;
+✽.I am on dashboard(file:///D:/VaccineBooking-QE/mobile-test-capstone/src/test/resources/features/AddFamilyMembers.feature:8)&#13;
+</system-err></testcase></testsuite>

@@ -1,3 +1,4 @@
 com\example\app\drivers\AndroidDriverInit.class
 com\example\app\page\registerPage.class
 com\example\app\base\BasePageObject.class
+com\example\app\page\addfamilymembersPage.class
