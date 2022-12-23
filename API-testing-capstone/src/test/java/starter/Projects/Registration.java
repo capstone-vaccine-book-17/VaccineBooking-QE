@@ -9,7 +9,7 @@ public class Registration {
     private String url;
     private JSONObject body = new JSONObject();
 
-    public void setUrlregister() { url = "http://ec2-100-26-203-215.compute-1.amazonaws.com/signup";}
+    public void setUrlregister() { url = "http://ec2-174-129-166-8.compute-1.amazonaws.com/signup";}
 
     public JSONObject inputnama(String nama){
         body.put("nama", nama);

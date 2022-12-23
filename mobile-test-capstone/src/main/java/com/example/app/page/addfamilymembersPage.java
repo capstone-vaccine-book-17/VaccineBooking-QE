@@ -17,6 +17,9 @@ public class addfamilymembersPage extends BasePageObject {
 
     private By addMemberPage = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View");
 
+    private By login1 = By.xpath("//android.widget.Button[@content-desc=\"Login\"]");
+
+
     public void setfieldEmail(String email){
         click(fieldEmail);
         inputText(fieldEmail, email);
@@ -41,5 +44,8 @@ public class addfamilymembersPage extends BasePageObject {
 
     public void setAddMemberPage(){
         isDisplayed(addMemberPage);
+    }
+    public void setLogin1(){
+        click(login1);
     }
 }

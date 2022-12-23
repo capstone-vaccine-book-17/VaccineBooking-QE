@@ -5,323 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0592ec4f-0e2d-45af-81a6-c3d763e44b9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/drivers/AndroidDriverInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/drivers/AndroidDriverInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/registerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/registerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/registerStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/registerStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/application/app-release.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/Register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/drivers/AndroidDriverInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/drivers/AndroidDriverInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/TEST-com.example.acceptancetests.AcceptanceTestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/com.example.acceptancetests.AcceptanceTestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/addfamilymembersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/addfamilymembersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/addfamilymembersStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/addfamilymembersStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/AddFamilyMembers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/AddFamilyMembers.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/page/addfamilymembersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/page/addfamilymembersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/TEST-com.example.acceptancetests.AcceptanceTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/TEST-com.example.acceptancetests.AcceptanceTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/com.example.acceptancetests.AcceptanceTestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/com.example.acceptancetests.AcceptanceTestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/mobile-test-capstone-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/mobile-test-capstone-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/091146fbf2eaf7689c1db01e45d56462fbecca3d99d0f40cc897aa7fb7b36015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/144c2b585a36ebd7a6cc41af4460b59eb32c5137d902291607fcc04a2fc45b79.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/144c2b585a36ebd7a6cc41af4460b59eb32c5137d902291607fcc04a2fc45b79.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2096516cc3f59da7d78ae63506641e5b396f8b70f0c5c74a2c47fb493009ff54.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/25c5c37df901ac1e69480f151c1d8cd10d40861605b5a2fffc167fabedf863af.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/34350f63adc9eedae40eb6bb6e28b166fb1924da5ac12fa65afe0d92e69d259e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/5999b38f2695f5503f22975c126512bf58c8dfee02dce4f2050553887abe5558.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/5c76823b831c2782e4491f81e558bf1588050a360aa921c01e178d9f2b573a67.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/60d572559b55793b671b9327541004409b3d243621fa410932a5dde8e5111b26.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/6b62f11ad442486b6a41ea3317910af798620ef218ed028b3a50039148b7d00f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/779edb8703a16671218a4f606fe2d8888c0d90f61e2c4aebf76bf173f644237d.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/779edb8703a16671218a4f606fe2d8888c0d90f61e2c4aebf76bf173f644237d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9e7d8c7432594750f2a7d11c4a98ba2c3e1b35e688f0dd19bbe3605cee2697a7.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/SERENITY-JUNIT-144c2b585a36ebd7a6cc41af4460b59eb32c5137d902291607fcc04a2fc45b79.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/a4af529cc7d43fa06d6c39e730831a34f1c95f3cc0380be6479be86141740b95.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b2e36ab748952ec1a7e302f4cc986431a72b05e64193f058c5121a8be567859a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b2e36ab748952ec1a7e302f4cc986431a72b05e64193f058c5121a8be567859a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap-treeview/dist/bootstrap-treeview.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap-treeview/dist/bootstrap-treeview.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/build-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c00b4db9a49a9a2ae8f3aab7a8ccba31950e8bae0db9516c2c1585ff96db722a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/capabilities.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/dist/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/aliases.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/clean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jasmine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jshint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/sass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/uglify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/umd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/dist/chartist.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/dist/chartist.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/dist/chartist.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/chartist/dist/chartist.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/css/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/css/link.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/css/tables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.19/datatables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.19/datatables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.19/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.19/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.19/time-elapsed-dhms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/jquery.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/jquery.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/datatables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/datatables/1.10.20/time-elapsed-dhms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/dfe733fd4ecefb13224809fb618336fd4992fe4c1ccf322f62ef786fa474e8a9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e4611c6173c2521df3a80206dc41fa67f44850a061814eecf60f7f556ff1085b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e87948a8a2abfbbd53193af1a50511f967d6cb9150ce3387357bbc1b954d95fe.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e87948a8a2abfbbd53193af1a50511f967d6cb9150ce3387357bbc1b954d95fe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/excanvas/3/excanvas.compiled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/excanvas/3/excanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/f529ec804d9c15fdd361970c7b774262428aa8d306bdffe1f03c21e78d7d417f.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fb62e2f530c6b1542792dc0d037a7756a051d964435cb21a3c817b0a12df52c0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fd725df9e13aa9ec9fb2972e034c18cbc686d2e37c6c50dde7215206d907d3cf.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/css/v4-shims.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/bg_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/bg_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/bottomm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-appium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-htmlunit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-iexplorer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-phantomjs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-provided.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-remote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/driver-safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/fail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/greenline.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/ico-q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/icon-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/ignor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/links_menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/menu_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/menu_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/menu_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/middle-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/middle-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/middle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/pending.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/serenity-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/skip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/small-middle-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/small-middle-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/small-middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/tablebg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/top-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/top-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/topm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/traffic-green.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/traffic-in-progress.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/traffic-orange.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/traffic-red.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/traffic-yellow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/images/worker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/2.0.1/jit-yc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/2.0.1/jit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/AreaChart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/BarChart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/ForceDirected.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/ForceDirected3D.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/HeatMap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/Hypertree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/Icicle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/Other.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/PieChart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/RGraph.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/Spacetree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/Sunburst.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/TimeGraph.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/Treemap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/col1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/col2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jit/css/gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqtree/0.22/jqtree-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqtree/0.22/jqtree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqtree/0.22/tree.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_55_999999_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_75_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_45_0078ae_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_55_f8da4e_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_75_79c9ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_0078ae_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_056b93_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_d8e7f3_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_e0fdff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f5e175_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f7a50d_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_fcd113_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ms-icon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/images/dev7logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/images/nemo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/images/toystory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/images/up.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/images/walle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/demo/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/nivo-slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/bar/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/bar/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/bar/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/dark/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/dark/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/dark/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/default/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/default/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/default/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/light/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/light/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/light/light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/nivo-slider/3.2/themes/light/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/results.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/scripts/imgpreview.full.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/scripts/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/serenity-resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/com/example/steps/registerStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/com/example/steps/registerStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/features/Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/03d6fe5bb8398bcd160fd45664caf4d28c9063593befca4892b956fe2da8b23e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/03d6fe5bb8398bcd160fd45664caf4d28c9063593befca4892b956fe2da8b23e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0514b7a1c815acff44820906545f07a8897c277a83b21e39a1e5ae5e8f56e66b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0514b7a1c815acff44820906545f07a8897c277a83b21e39a1e5ae5e8f56e66b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/081d9128312cce9ef9f4718a1f52f1380415d9facd2fc878488a8b5de98cd80f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/081d9128312cce9ef9f4718a1f52f1380415d9facd2fc878488a8b5de98cd80f.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0a9e770f84b5167aada74091f7e73eeb820e77483d974675fbe676837456a3f5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0a9e770f84b5167aada74091f7e73eeb820e77483d974675fbe676837456a3f5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0a9e770f84b5167aada74091f7e73eeb820e77483d974675fbe676837456a3f5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0a9e770f84b5167aada74091f7e73eeb820e77483d974675fbe676837456a3f5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0e076557581662d6be853ec3fb427b34832be0a2fccdaa5decf694c09de79224.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0e076557581662d6be853ec3fb427b34832be0a2fccdaa5decf694c09de79224.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/1b449978a24286c06cf559b215b9fcf9cb54b70c8dd19381be5b4b6d74e36dd2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/1b449978a24286c06cf559b215b9fcf9cb54b70c8dd19381be5b4b6d74e36dd2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/22a92488e2bf162eb58f3f453b650dde0bab75a2b31234832f024f39b1c5f192.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2b590079883756dbd01d29a5f8dbdb5d94d630c1d390ca3ac65101610c9cbf8f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2b590079883756dbd01d29a5f8dbdb5d94d630c1d390ca3ac65101610c9cbf8f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/4a94b325fe9649372a562ab0b2a0efc61e0ad3bbb18ca678880f6a19a5dbda4a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/4a94b325fe9649372a562ab0b2a0efc61e0ad3bbb18ca678880f6a19a5dbda4a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/4a94b325fe9649372a562ab0b2a0efc61e0ad3bbb18ca678880f6a19a5dbda4a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/4a94b325fe9649372a562ab0b2a0efc61e0ad3bbb18ca678880f6a19a5dbda4a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/5b75227201347bd2c787f74d57f9762238f3666059d70277d567e0583e80304d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/5b75227201347bd2c787f74d57f9762238f3666059d70277d567e0583e80304d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/5e80392f0a94e14df6817102099182a2474aa838e2d95504cda10533e1f14ea6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/5e80392f0a94e14df6817102099182a2474aa838e2d95504cda10533e1f14ea6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/6792a0cda036a4a86ae151a8309c75f7a4c73812ce8fe299e2f6471f6bdb4df2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/6792a0cda036a4a86ae151a8309c75f7a4c73812ce8fe299e2f6471f6bdb4df2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/779edb8703a16671218a4f606fe2d8888c0d90f61e2c4aebf76bf173f644237d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/779edb8703a16671218a4f606fe2d8888c0d90f61e2c4aebf76bf173f644237d.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/779edb8703a16671218a4f606fe2d8888c0d90f61e2c4aebf76bf173f644237d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/779edb8703a16671218a4f606fe2d8888c0d90f61e2c4aebf76bf173f644237d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/7d47337d8163e9da3747301dd1a9c1ca1ff80cca8b35860351b9aa67d0733b5b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/7d47337d8163e9da3747301dd1a9c1ca1ff80cca8b35860351b9aa67d0733b5b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9cd69dc795e8bb7b7c1eb5a17c08107ebcd04b0d42dc7c5ef15e3f068ef75813.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9cd69dc795e8bb7b7c1eb5a17c08107ebcd04b0d42dc7c5ef15e3f068ef75813.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9e9b48f5945159521b313e8ad50e54bfcf925b28e6000623e8b6f18ff169db91.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9e9b48f5945159521b313e8ad50e54bfcf925b28e6000623e8b6f18ff169db91.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9e9b48f5945159521b313e8ad50e54bfcf925b28e6000623e8b6f18ff169db91.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/9e9b48f5945159521b313e8ad50e54bfcf925b28e6000623e8b6f18ff169db91.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/SERENITY-JUNIT-c75634f4dac9cde0fe1a502bd8b3905ead6889306a05a666dd85e96d1cb76c86.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/SERENITY-JUNIT-c75634f4dac9cde0fe1a502bd8b3905ead6889306a05a666dd85e96d1cb76c86.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/SERENITY-JUNIT-e33872ffcf1339da2909e9b17dddd3215e049a1a25e029cbcbd4d7fd97ae942f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/SERENITY-JUNIT-e33872ffcf1339da2909e9b17dddd3215e049a1a25e029cbcbd4d7fd97ae942f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b0b6c0e774ef0d1123d984c5f7f889d7c08a90e2768557f4dd3fa0d14877e4d7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b0b6c0e774ef0d1123d984c5f7f889d7c08a90e2768557f4dd3fa0d14877e4d7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b0e58dd8590c1534142d4c8bb080434ecacd75dbb7354189eaeeb24955f63435.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b0e58dd8590c1534142d4c8bb080434ecacd75dbb7354189eaeeb24955f63435.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b2e36ab748952ec1a7e302f4cc986431a72b05e64193f058c5121a8be567859a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b2e36ab748952ec1a7e302f4cc986431a72b05e64193f058c5121a8be567859a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b2e36ab748952ec1a7e302f4cc986431a72b05e64193f058c5121a8be567859a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b2e36ab748952ec1a7e302f4cc986431a72b05e64193f058c5121a8be567859a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c6b1767f890ff41d42f6233e653ad2fe82e4a479ea09969ef1caa371ade95759.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c6b1767f890ff41d42f6233e653ad2fe82e4a479ea09969ef1caa371ade95759.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c75634f4dac9cde0fe1a502bd8b3905ead6889306a05a666dd85e96d1cb76c86.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c75634f4dac9cde0fe1a502bd8b3905ead6889306a05a666dd85e96d1cb76c86.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c75634f4dac9cde0fe1a502bd8b3905ead6889306a05a666dd85e96d1cb76c86.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c75634f4dac9cde0fe1a502bd8b3905ead6889306a05a666dd85e96d1cb76c86.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ca0674293d2f280f6f61c44b41fc9ba7d3f053286fac4c59615b4511fee61f9f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ca0674293d2f280f6f61c44b41fc9ba7d3f053286fac4c59615b4511fee61f9f.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/d3d6c47cef8149130b1665e852c7d1e4cdac6b715264dac91417b64d66f4ae72.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/d3d6c47cef8149130b1665e852c7d1e4cdac6b715264dac91417b64d66f4ae72.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e33872ffcf1339da2909e9b17dddd3215e049a1a25e029cbcbd4d7fd97ae942f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e33872ffcf1339da2909e9b17dddd3215e049a1a25e029cbcbd4d7fd97ae942f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e33872ffcf1339da2909e9b17dddd3215e049a1a25e029cbcbd4d7fd97ae942f.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e33872ffcf1339da2909e9b17dddd3215e049a1a25e029cbcbd4d7fd97ae942f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e87948a8a2abfbbd53193af1a50511f967d6cb9150ce3387357bbc1b954d95fe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e87948a8a2abfbbd53193af1a50511f967d6cb9150ce3387357bbc1b954d95fe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e87948a8a2abfbbd53193af1a50511f967d6cb9150ce3387357bbc1b954d95fe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/e87948a8a2abfbbd53193af1a50511f967d6cb9150ce3387357bbc1b954d95fe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/eb0a1863df454eedaa2711cb1700585a9cd1ce5b20babf31e0e2e3b229106236.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/eb0a1863df454eedaa2711cb1700585a9cd1ce5b20babf31e0e2e3b229106236.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/eb0a1863df454eedaa2711cb1700585a9cd1ce5b20babf31e0e2e3b229106236.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/eb0a1863df454eedaa2711cb1700585a9cd1ce5b20babf31e0e2e3b229106236.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ee69cb0c82cc8774f7b611fd3137780bd9f067236b2d397d0e264ebc1874bc20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/ee69cb0c82cc8774f7b611fd3137780bd9f067236b2d397d0e264ebc1874bc20.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fe678e21e43ddafa4f07fc5a3fad1564db9b356db1859dd7aca2712b738a1d5e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/fe678e21e43ddafa4f07fc5a3fad1564db9b356db1859dd7aca2712b738a1d5e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/com/example/steps/addfamilymembersStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/com/example/steps/addfamilymembersStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/features/AddFamilyMembers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/features/AddFamilyMembers.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-testing-capstone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-testing-capstone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-testing-capstone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-testing-capstone/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,13 +102,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/API-testing-capstone"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="starter.stepdefinitions" />

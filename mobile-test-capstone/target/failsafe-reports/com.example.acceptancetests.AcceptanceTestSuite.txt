@@ -1,7 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.example.acceptancetests.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 79.008 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
-Add Family members.Add family member in profil page  Time elapsed: 18.072 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 124.594 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Add Family members.Add family member in profil page  Time elapsed: 64.431 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="Profile Tab 4 of 4"] (tried for 40 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PFETDR9', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\VaccineBooking-QE\mobile..., appPackage: com.example.w_vaccine, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\VaccineBooking-QE\mobile..., automationName: UiAutomator2, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9RR204PQ2H, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9RR204PQ2H, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 45, takesScreenshot: true, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 3c212469-674c-42f7-a202-a5fe691466fc
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Profile Tab 4 of 4"]}
 

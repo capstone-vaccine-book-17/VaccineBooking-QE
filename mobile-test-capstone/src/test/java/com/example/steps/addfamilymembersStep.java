@@ -10,15 +10,6 @@ import com.example.app.page.registerPage;
 public class addfamilymembersStep {
     @Steps
     addfamilymembersPage Addfamilymemberspage;
-    registerPage RegisterPage;
-    @Given("I am on dashboard")
-    public void iAmOnDashboard() {
-        RegisterPage.setstartPage();
-        Addfamilymemberspage.setfieldEmail("bene@gmail.com");
-        Addfamilymemberspage.setfieldPassword("123456");
-        RegisterPage.setLoginButton();
-    }
-
     @When("I click profile menu")
     public void iClickProfileMenu() {
         Addfamilymemberspage.setTabProfile();
@@ -37,5 +28,20 @@ public class addfamilymembersStep {
     @Then("I succes open tambah anggota keluarga")
     public void iSuccesOpenTambahAnggotaKeluarga() {
         Addfamilymemberspage.setAddMemberPage();
+    }
+
+    @And("I input email")
+    public void iInputEmail() {
+        Addfamilymemberspage.setfieldEmail("yusuf@gmail.com");
+    }
+
+    @And("I input password")
+    public void iInputPassword() {
+        Addfamilymemberspage.setfieldPassword("123456");
+    }
+
+    @And("I click login")
+    public void iClickLogin() {
+        Addfamilymemberspage.setLogin1();
     }
 }
