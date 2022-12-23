@@ -10,4 +10,9 @@ Feature: Booking Vaksin
     And I input email
     And I input password
     And I click login
-    And I click faskes
+    And I click vaksin
+    And I click search
+    And I input faskes
+    And I click searching
+    And I click faskes terdekat
+    Then I can booking vaksin

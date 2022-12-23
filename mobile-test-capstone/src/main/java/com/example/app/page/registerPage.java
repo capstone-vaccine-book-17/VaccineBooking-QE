@@ -23,7 +23,10 @@ public class registerPage extends BasePageObject {
 
     private By fieldEmail = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[4]");
 
-    private By fieldPassword = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[5]");
+    private By fieldEmail2 = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[3]");
+
+    private By fieldPassword = By.xpath("\t\n" +
+            "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[4]");
 
     private By inputDob = By.xpath("//android.view.View/android.widget.Button[1]");
 
@@ -77,7 +80,7 @@ public class registerPage extends BasePageObject {
     public void setFieldEmail(String email){
         click(fieldEmail);
         driver.hideKeyboard();
-        inputText(fieldEmail, email);
+        inputText(fieldEmail2, email);
         driver.hideKeyboard();
     }
 

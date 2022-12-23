@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0592ec4f-0e2d-45af-81a6-c3d763e44b9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/addfamilymembersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/addfamilymembersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/addfamilymembersStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/addfamilymembersStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/AddFamilyMembers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/AddFamilyMembers.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/page/addfamilymembersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/page/addfamilymembersPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/BookingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/java/com/example/steps/BookingStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/drivers/AndroidDriverInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/drivers/AndroidDriverInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/registerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/main/java/com/example/app/page/registerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/BookingVaksin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/src/test/resources/features/BookingVaksin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/drivers/AndroidDriverInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/drivers/AndroidDriverInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/page/registerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/classes/com/example/app/page/registerPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/TEST-com.example.acceptancetests.AcceptanceTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/TEST-com.example.acceptancetests.AcceptanceTestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/com.example.acceptancetests.AcceptanceTestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/com.example.acceptancetests.AcceptanceTestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/mobile-test-capstone-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/mobile-test-capstone-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0066b1e5694d637ba9be8789b687b65b0e4cc1fa65536fe7384dd26e4c9489c6.csv" afterDir="false" />
@@ -24,9 +28,9 @@
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0a9e770f84b5167aada74091f7e73eeb820e77483d974675fbe676837456a3f5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0a9e770f84b5167aada74091f7e73eeb820e77483d974675fbe676837456a3f5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0e076557581662d6be853ec3fb427b34832be0a2fccdaa5decf694c09de79224.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/0e076557581662d6be853ec3fb427b34832be0a2fccdaa5decf694c09de79224.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/1b449978a24286c06cf559b215b9fcf9cb54b70c8dd19381be5b4b6d74e36dd2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/1b449978a24286c06cf559b215b9fcf9cb54b70c8dd19381be5b4b6d74e36dd2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/22a92488e2bf162eb58f3f453b650dde0bab75a2b31234832f024f39b1c5f192.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/233fb6909458a677df8f9ba266532ec4a1a7e445192c4f73cbd4ecf76cb918c5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2b56b574d89834f6aa192f59fa6627b776a6c288e09dbc7d06c356f5bad5b3c0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2b56b574d89834f6aa192f59fa6627b776a6c288e09dbc7d06c356f5bad5b3c0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2b590079883756dbd01d29a5f8dbdb5d94d630c1d390ca3ac65101610c9cbf8f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2b590079883756dbd01d29a5f8dbdb5d94d630c1d390ca3ac65101610c9cbf8f.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/2cd3974b083ff31ec6ff1a111fc5d03cb6e6062fd1d5d7ae6ca2a7a7d3ba8981.html" afterDir="false" />
@@ -73,10 +77,9 @@
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/application/app-release (1).apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/com/example/steps/addfamilymembersStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/com/example/steps/addfamilymembersStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/features/AddFamilyMembers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-test-capstone/target/test-classes/features/AddFamilyMembers.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-testing-capstone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-testing-capstone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-testing-capstone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-testing-capstone/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +105,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/API-testing-capstone"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/API-testing-capstone&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="starter.stepdefinitions" />

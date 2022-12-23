@@ -12,10 +12,10 @@ public class AndroidDriverInit {
 
     public static void initialization(){
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("platformVersion", "12");
+        caps.setCapability("platformVersion", "13");
         caps.setCapability("platformName","Android");
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("app","D:\\VaccineBooking-QE\\mobile-test-capstone\\src\\test\\resources\\application\\app-release (1).apk");
+        caps.setCapability("app","D:\\VaccineBooking-QE\\mobile-test-capstone\\src\\test\\resources\\application\\app-release.apk");
 
         try {
             driver = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), caps);
